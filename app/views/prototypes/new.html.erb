@@ -1,0 +1,13 @@
+<div class="main">
+  <div class="inner">
+    <div class="form__wrapper">
+      <h2 class="page-heading">新規プロトタイプ投稿</h2>
+        <%# 部分テンプレートでフォームを表示する %>
+          <%= render partial: "form", locals: { prototype: @prototype } %>
+          <%# 54 部分テンプレートでフォームを表示する、render,partial/form,locals %>
+          <%# 部分テンプレート：コードまとめておいておく、便利？、コードのミスなどを修正しやすくなる %>
+          <%# 例：単語登録しておいたものを呼び出す、.は中のと言う意味、tweet.imageはtweetの中のイメージをください %>
+          
+    </div>
+  </div>
+</div>
